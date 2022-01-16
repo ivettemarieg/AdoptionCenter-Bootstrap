@@ -1,0 +1,200 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0 auto;
+}
+
+.fa-cat{
+    color:coral;
+    font-size: 3rem;
+}
+
+.feast{
+    color:rgb(245, 205, 190);
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.container{
+    padding-right:0px;
+}
+
+#intro{
+    background-color: #E6F8F6;
+}
+
+#navbarSupportedContent{
+    font-size: 2rem;
+}
+
+[class*="dropdown-item"]{
+    font-size: 2rem;
+}
+
+h1{
+    text-shadow: 5px 5px 10px grey;
+    font-size: 5rem;
+    color: #03414D;
+}
+
+.greetings{
+    text-align: center;
+}
+
+.options{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.313rem;
+    box-shadow: 5px 5px 50px #34b680;
+}
+
+[class*="btn"]{
+    width: 100%;
+    background-color: #A0F6D2;
+    border-color: #A0F6D2;
+    color: #03414D;
+    border-radius: 15px 50px;
+}
+
+[class*="btn"]:hover{
+    background-color: #a0f6d262;
+    border-color: #a0f6d2c5;
+    color: white;
+    width: 120%;
+}
+
+.about-img-container{
+    width: 10rem;
+    height: 10rem;
+}
+
+.about-img{
+    font-size: 5rem;
+    color: #03414D;
+}
+
+.about-h4{
+    font-size: 5rem;
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.3rem;
+    letter-spacing: .01rem;
+}
+
+p a{
+    color: #A0F6D2;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+p a:hover{
+    color:#03414D; 
+}
+
+.cat-price{
+    font-size: 3rem;
+}
+
+.price, .price2, .price3{
+    background-color: #a0f6d2;
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 10px 10px 50px #34b680;
+}
+
+.price2{
+    background-color: rgb(248, 176, 150);
+    box-shadow: 10px 10px 50px coral;
+}
+
+.price3{
+    background-color: rgb(255, 143, 255);
+    box-shadow: 10px 10px 50px rgb(160, 0, 160);
+}
+
+.fixed-price, .fixed-price2, .fixed-price3{
+    font-size: 4rem;
+    color: #03414D;
+}
+
+.price:hover, .price2:hover, .price3:hover{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
+[class*="table"]{
+    width: 50%;
+    text-align: center;
+}
+
+th{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.footer-social{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    body{
+        margin: auto;
+    }
+
+    [class*="row"]{
+        margin-right : 0px;
+    }
+
+    .options{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+    .about-img{
+        font-size: 4rem;
+    }
+
+    .about-h4{
+        font-size: 4rem;
+    }
+
+    .cat-price{
+        font-size: 3rem;
+    }
+    
+    .price, .price2, .price3{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+            
+    .fixed-price, .fixed-price2, .fixed-price3{
+        font-size: 3rem;
+    }
+    
+    .price:hover, .price2:hover, .price3:hover{
+        transform: scale(1.5);
+        transition: transform 330ms ease-in-out;
+    }
+    
+    .footer-social{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
